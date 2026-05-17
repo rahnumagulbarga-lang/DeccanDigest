@@ -1,0 +1,29 @@
+name: deccandigest
+description: DeccanDigest - The Largest News Network of Deccan Region
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.3.0
+  video_player: ^2.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo/
+    - assets/sponsors/
+    - assets/banners/
+    - assets/intro/
+    - assets/icons/
